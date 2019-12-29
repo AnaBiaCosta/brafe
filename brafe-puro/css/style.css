@@ -219,6 +219,59 @@ h2.product-three::before{
 }
 
 
+/* Locais */
+
+.place{
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.place-item{
+    clear: both;
+    margin: 60px auto;
+}
+
+.place-item::after, .place-item::before{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.place-item img{
+    width: 460px;
+    float: left;
+    display: block;
+    margin: 0px 10px;
+}
+
+.place-item > div{
+    width: 460px;
+    float: left;
+    margin: 0px 10px;
+}
+
+.place-item h2{
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.place-item p{
+    font-size: 1.125em;
+    line-height: 1.4em;
+    max-width: 320px;
+    margin-bottom: 40px;
+}
+
+.place-item a{
+    font-size: 1.125em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px solid;
+    color: #252525;
+    padding: 10px 20px;
+}
+
 
 
 
