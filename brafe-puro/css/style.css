@@ -1,3 +1,6 @@
+/* Breakpoints - 960px e 740px */
+
+
 /* Reset */
 body, h1, h2, h3, p, ul{
     padding: 0px;
@@ -54,6 +57,22 @@ a.menu-brand{
     font-size: 1.125em;
 }
 
+@media (max-width: 739px){
+    .menu{
+        text-align: center;
+    }
+
+    a.menu-brand{
+        float: none;
+        margin: 0px auto;
+    }
+
+    .menu-nav{
+        float: none;
+        clear: both;
+    }
+}
+
 
 /* Introdução */
 .intro{
@@ -82,6 +101,13 @@ a.menu-brand{
 .intro p{
     font-style: italic;
     font-size: 1.125em;
+}
+
+
+@media (max-width: 739px){
+    .intro{
+        padding: 60px 0px;
+    }
 }
 
 
@@ -139,6 +165,28 @@ a.menu-brand{
     text-align: center;
     margin: 20px auto;
     max-width: 460px;
+}
+
+
+@media (min-width: 740px) and (max-width: 980px){
+    .about-container{
+        max-width: 720px;
+    }
+
+    .about-item{
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px){
+    .about-container{
+        max-width: 300px;
+    }
+
+    .about-item{
+        width: 300px;
+        margin: 0px auto;
+    }
 }
 
 
@@ -217,6 +265,26 @@ h2.product-three::before{
     margin: 20px auto 0 auto;
 }
 
+@media (min-width: 740px) and (max-width: 980px){
+    .product-container{
+        max-width: 720px;
+    }
+
+    .product-item{
+        width: 220px;
+    }
+}
+
+@media (max-width: 739px){
+    .product-container{
+        max-width: 300px;
+    }
+
+    .product-item{
+        margin: 0px auto 20px auto;
+    }
+}
+
 
 /* Locais */
 .place{
@@ -268,6 +336,27 @@ h2.product-three::before{
     border: 3px solid;
     color: #252525;
     padding: 10px 20px;
+}
+
+@media (min-width: 740px) and (max-width: 980px){
+    .place{
+        max-width: 720px;
+    }
+
+    .place-item > div, .place-item img{
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px){
+    .place{
+        max-width: 300px;
+    }
+
+    .place-item > div, .place-item img{
+        width: 300px;
+        margin: 0px
+    }
 }
 
 
@@ -341,6 +430,30 @@ h2.product-three::before{
 }
 
 
+
+@media (min-width: 740px) and (max-width: 980px){
+    .newsletter-container{
+        max-width: 720px;
+    }
+
+    .newsletter-info, .newsletter input, .newsletter form{
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px){
+    .newsletter-container{
+        max-width: 300px;
+    }
+
+    .newsletter-info, .newsletter input, .newsletter form{
+        width: 300px;
+        margin: 10px 0px 0px 0px;
+    }
+
+}
+
+
 /* Footer */
 .footer{
     background: #d6d3c8;
@@ -369,4 +482,20 @@ h2.product-three::before{
     float: right;
     margin: 0px 10px;
     display: block;
+}
+
+@media (max-width: 739px){
+    .footer-container{
+        max-width: 300px;
+    }
+
+    .footer img{
+        float: none;
+        margin: 10px 0px;
+    }
+
+    .footer p{
+        float: none;
+        margin: 20px 0px;
+    }
 }
