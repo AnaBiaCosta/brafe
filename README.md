@@ -1,2 +1,2 @@
 # brafe
-Três pages sobre o café Brafé, utilizando html, css, flexbox e grid layout
+Três pages sobre o café fictício Brafé, utilizando html, css, flexbox e grid layout
